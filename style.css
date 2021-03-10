@@ -4337,6 +4337,21 @@ form#commant_form div.field textarea.custom_field {
     width: 100%;
     height: 100%;
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ccenter{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   
   .overlay {
@@ -4557,7 +4572,7 @@ form#commant_form div.field textarea.custom_field {
         text-shadow: #f92b61 -1px 1px, #f92b61 -2px 2px, #f92b61 -3px 3px, #f92b61 -4px 4px, #f92b61 -5px 5px;
         letter-spacing: 1px;
         height:auto;
-        width:auto;
+        width:70%;
         margin: auto;
         text-align: center;
         line-height: 45px;
@@ -4569,12 +4584,9 @@ form#commant_form div.field textarea.custom_field {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        color: #ffffff !important;
-        border-radius: 0;
-        border: 0 !important;
-        overflow: hidden;
-        font-size: 3vw;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #e9d6e7 !important;
+        font-size: 3.5vw;
         font-weight: bold;
         text-shadow: #f92b61 -1px 1px, #f92b61 -2px 2px, #f92b61 -3px 3px, #f92b61 -4px 4px, #f92b61 -5px 5px;
         letter-spacing: 2px;
@@ -4582,7 +4594,7 @@ form#commant_form div.field textarea.custom_field {
         width:100%;
         margin: auto;
         text-align: center;
-        line-height: 45px;
+        line-height: 56px;
     }
 
 
