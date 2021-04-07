@@ -68,7 +68,7 @@ if (isset($_POST['email'])) {
         $email_message .= "Email: " . clean_string($email) . "\n";
         $email_message .= "Message: " . clean_string($comments) . "\n";
 
-        // create email headers
+        // crea el encabezado del correo electrónico
         $headers = 'From: ' . $email . "\r\n" .
                 'Reply-To: ' . $email . "\r\n" .
                 'X-Mailer: PHP/' . phpversion();
@@ -76,5 +76,6 @@ if (isset($_POST['email'])) {
 ?>
         Gracias por contactarnos. Muy pronto nos pondremos en contacto contigo.
 <?php
-}
+        header ("Location: index.html");
+        }
 ?>
