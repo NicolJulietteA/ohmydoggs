@@ -74,7 +74,6 @@ if (isset($_POST['email'])) {
                 'X-Mailer: PHP/' . phpversion();
         @mail($email_to, $email_subject, $email_message, $headers);
 ?>
-        Gracias por contactarnos. Muy pronto nos pondremos en contacto contigo.
 <?php
         header ("Location: index.html");
         }
