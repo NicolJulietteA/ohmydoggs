@@ -48,7 +48,7 @@ if (isset($_POST['email'])) {
         }
 
         if (strlen($comments) < 2) {
-                $error_message .= 'El mensaje que ingresó no parece ser válido.<br>';
+                $error_message .= 'El mensaje que ingresó parece ser muy corto.<br>';
         }
 
         if (strlen($error_message) > 0) {
