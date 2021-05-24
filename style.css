@@ -4241,7 +4241,7 @@ form#commant_form div.field textarea.custom_field {
 }
 
 .haf_layout::after {
-    width     : 50%;
+    width     : 25%;
     position  : absolute;
     right     : 0;
     content   : "";
@@ -4609,7 +4609,7 @@ form#commant_form div.field textarea.custom_field {
     top           : 50%;
     left          : 50%;
     transform     : translate(-50%, -50%);
-    font-family   : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family   : 'Poppins', sans-serif;
     color         : #ffffff !important;
     font-size     : 3vw;
     font-weight   : bold;
@@ -4645,17 +4645,17 @@ form#commant_form div.field textarea.custom_field {
     top           : 50%;
     left          : 50%;
     transform     : translate(-50%, -50%);
-    font-family   : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family   : 'Poppins', sans-serif;
     color         : #e9d6e7 !important;
-    font-size     : 3.5vw;
+    font-size     : 3vw;
     font-weight   : bold;
     text-shadow   : #f92b61 -1px 1px, #f92b61 -2px 2px, #f92b61 -3px 3px, #f92b61 -4px 4px, #f92b61 -5px 5px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     height        : auto;
-    width         : 100%;
+    width         : 80%;
     margin        : auto;
     text-align    : center;
-    line-height   : 56px;
+    line-height   : 45px;
 }
 
 
