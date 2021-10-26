@@ -2,7 +2,7 @@
 if (!empty($_POST["submit"])) {
 
         // EDITE LAS 2 LÍNEAS A CONTINUACIÓN SEGÚN SEA NECESARIO
-        $email_to = "contacto@ohmydoggs.cl";
+        $email_to = "nicolabarca.luengo@gmail.com";
 
         $first_name = $_POST['first_name']; // required
         $last_name = $_POST['last_name']; // required
